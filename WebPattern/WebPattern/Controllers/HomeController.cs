@@ -3,32 +3,34 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebPattern.Infrastructure;
 using WebPattern.Models;
 
 namespace WebPattern.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly List<EmployeeView> _employees = new List<EmployeeView>
+        private readonly IEmployeesData _employeesData;
+
+        public HomeController(IEmployeesData employeesData)
         {
-            new EmployeeView
-            {
-                Id = 1,
-                FirstName = "Vasia",
-                Age = 22
-            },
-            new EmployeeView
-            {
-                Id = 2,
-                FirstName = "Ne Vasia",
-                Age = 40
-            }
-        };
+            _employeesData = employeesData;
+        }
 
         public IActionResult Index()
         {
             //return Content("test");
-            return View(_employees);
+            return View(_employeesData.GetAll());
+        }
+
+        public IActionResult Details(int id)
+        {
+            var employee= _employeesData.GetByID(id);
+
+            if (employee == null)
+                return NotFound();
+
+            return View(employee);
         }
     }
 }

@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using WebPattern.Infrastructure;
+using WebPattern.Infrastructure.Implementation;
 
 namespace WebPattern
 {
@@ -23,6 +25,9 @@ namespace WebPattern
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            //add permit relation
+            services.AddSingleton<IEmployeesData, InMemoryEmployeesData>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +42,9 @@ namespace WebPattern
 
             app.UseMvc(routes =>
             {
+                routes.MapRoute("Users", "Users",
+                    new { controller="Home", action="Index"});
+
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
