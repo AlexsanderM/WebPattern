@@ -12,6 +12,9 @@
         <td>@item.FirstName</td>
         <td>@item.Age</td>
         <td><a asp-action="Details" asp-route-id="@item.Id">Detail</a></td>
+        <td><a asp-action="Edit" asp-route-id="@item.Id">Edit</a></td>
     </tr>
     }
 </table>
+<hr />
+<a asp-action="Edit" class="btn btn-success">Add</a>

@@ -25,12 +25,54 @@ namespace WebPattern.Controllers
 
         public IActionResult Details(int id)
         {
-            var employee= _employeesData.GetByID(id);
+            var employee = _employeesData.GetByID(id);
 
             if (employee == null)
                 return NotFound();
 
             return View(employee);
+        }
+
+        [Route("edit/{id?}")]
+        [HttpGet]
+        public IActionResult Edit(int? id) {
+            EmployeeView model;
+            if (id.HasValue)
+            {
+                model = _employeesData.GetByID(id.Value);
+                if (ReferenceEquals(model, null))
+                {
+                    return NotFound();
+                }
+            }
+            else
+            {
+                model = new EmployeeView();
+            }
+
+            return View(model);
+        }
+
+        [HttpPost]
+        [Route("edit/{id?}")]
+        public IActionResult Edit(EmployeeView model)
+        {
+            if (model.Id > 0)
+            {
+                var dbItem = _employeesData.GetByID(model.Id);
+
+                if (ReferenceEquals(dbItem, null))
+                    return NotFound();
+
+                dbItem.FirstName = model.FirstName;
+                dbItem.Age = model.Age;
+            }
+            else
+            {
+                _employeesData.AddNew(model);
+            }
+
+            return RedirectToAction(nameof(Index));
         }
     }
 }

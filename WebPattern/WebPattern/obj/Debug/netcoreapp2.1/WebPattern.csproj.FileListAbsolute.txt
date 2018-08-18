@@ -26,3 +26,4 @@ C:\project\WebPattern\WebPattern\WebPattern\obj\Debug\netcoreapp2.1\Razor\Views\
 C:\project\WebPattern\WebPattern\WebPattern\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
 C:\project\WebPattern\WebPattern\WebPattern\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.g.cshtml.cs
 C:\project\WebPattern\WebPattern\WebPattern\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partial\_Footer.g.cshtml.cs
+C:\project\WebPattern\WebPattern\WebPattern\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.g.cshtml.cs
