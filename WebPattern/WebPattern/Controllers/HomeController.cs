@@ -57,6 +57,14 @@ namespace WebPattern.Controllers
         [Route("edit/{id?}")]
         public IActionResult Edit(EmployeeView model)
         {
+            if (model.Age < 18)
+            {
+                ModelState.AddModelError("Age", "error age");
+            }
+
+            if (!ModelState.IsValid)
+                return View(model);
+
             if (model.Id > 0)
             {
                 var dbItem = _employeesData.GetByID(model.Id);
@@ -72,6 +80,13 @@ namespace WebPattern.Controllers
                 _employeesData.AddNew(model);
             }
 
+            return RedirectToAction(nameof(Index));
+        }
+
+        [Route("delete/{id}")]
+        public IActionResult Delete(int id)
+        {
+            _employeesData.Delete(id);
             return RedirectToAction(nameof(Index));
         }
     }
