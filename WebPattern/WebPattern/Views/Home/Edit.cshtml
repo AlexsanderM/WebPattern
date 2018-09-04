@@ -1,0 +1,27 @@
+﻿@model EmployeeView
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Man</h4>
+<hr />
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input asp-for="Id" type="hidden" />
+    <div class="form-group">
+        <label asp-for="FirstName" class="control-label"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+    <input asp-for="Age" class="form-control" />
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-default" />
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back</a>
+</div>

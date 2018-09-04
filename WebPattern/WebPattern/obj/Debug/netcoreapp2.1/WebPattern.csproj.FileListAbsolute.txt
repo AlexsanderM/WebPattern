@@ -27,3 +27,6 @@ C:\project\WebPattern\WebPattern\WebPattern\obj\Debug\netcoreapp2.1\Razor\Views\
 C:\project\WebPattern\WebPattern\WebPattern\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.g.cshtml.cs
 C:\project\WebPattern\WebPattern\WebPattern\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Partial\_Footer.g.cshtml.cs
 C:\project\WebPattern\WebPattern\WebPattern\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.g.cshtml.cs
+C:\project\WebPattern\WebPattern\WebPattern\bin\Debug\netcoreapp2.1\WebStore.Domain.dll
+C:\project\WebPattern\WebPattern\WebPattern\bin\Debug\netcoreapp2.1\WebStore.Domain.pdb
+C:\project\WebPattern\WebPattern\WebPattern\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Components\Sections\Default.g.cshtml.cs

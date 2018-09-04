@@ -1,0 +1,9 @@
+C:\project\WebPattern\WebPattern\WebStore.Domain\bin\Debug\netcoreapp2.1\WebStore.Domain.deps.json
+C:\project\WebPattern\WebPattern\WebStore.Domain\bin\Debug\netcoreapp2.1\WebStore.Domain.dll
+C:\project\WebPattern\WebPattern\WebStore.Domain\bin\Debug\netcoreapp2.1\WebStore.Domain.pdb
+C:\project\WebPattern\WebPattern\WebStore.Domain\obj\Debug\netcoreapp2.1\WebStore.Domain.csprojAssemblyReference.cache
+C:\project\WebPattern\WebPattern\WebStore.Domain\obj\Debug\netcoreapp2.1\WebStore.Domain.csproj.CoreCompileInputs.cache
+C:\project\WebPattern\WebPattern\WebStore.Domain\obj\Debug\netcoreapp2.1\WebStore.Domain.AssemblyInfoInputs.cache
+C:\project\WebPattern\WebPattern\WebStore.Domain\obj\Debug\netcoreapp2.1\WebStore.Domain.AssemblyInfo.cs
+C:\project\WebPattern\WebPattern\WebStore.Domain\obj\Debug\netcoreapp2.1\WebStore.Domain.dll
+C:\project\WebPattern\WebPattern\WebStore.Domain\obj\Debug\netcoreapp2.1\WebStore.Domain.pdb

@@ -4,6 +4,8 @@
     ViewBag.Title = "Index";
 }
 
+@await Component.InvokeAsync("Sections");
+
 <table>
     @foreach (var item in Model)
     {
