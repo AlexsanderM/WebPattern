@@ -1,0 +1,14 @@
+C:\project\WebPattern\WebPattern\WebStore.DAL\bin\Debug\netcoreapp2.1\WebStore.DAL.deps.json
+C:\project\WebPattern\WebPattern\WebStore.DAL\bin\Debug\netcoreapp2.1\WebStore.DAL.dll
+C:\project\WebPattern\WebPattern\WebStore.DAL\obj\Debug\netcoreapp2.1\WebStore.DAL.csprojAssemblyReference.cache
+C:\project\WebPattern\WebPattern\WebStore.DAL\obj\Debug\netcoreapp2.1\WebStore.DAL.csproj.CoreCompileInputs.cache
+C:\project\WebPattern\WebPattern\WebStore.DAL\obj\Debug\netcoreapp2.1\WebStore.DAL.AssemblyInfoInputs.cache
+C:\project\WebPattern\WebPattern\WebStore.DAL\obj\Debug\netcoreapp2.1\WebStore.DAL.AssemblyInfo.cs
+C:\project\WebPattern\WebPattern\WebStore.DAL\bin\Debug\netcoreapp2.1\WebStore.DAL.runtimeconfig.json
+C:\project\WebPattern\WebPattern\WebStore.DAL\bin\Debug\netcoreapp2.1\WebStore.DAL.runtimeconfig.dev.json
+C:\project\WebPattern\WebPattern\WebStore.DAL\bin\Debug\netcoreapp2.1\WebStore.DAL.pdb
+C:\project\WebPattern\WebPattern\WebStore.DAL\bin\Debug\netcoreapp2.1\WebStore.Domain.dll
+C:\project\WebPattern\WebPattern\WebStore.DAL\bin\Debug\netcoreapp2.1\WebStore.Domain.pdb
+C:\project\WebPattern\WebPattern\WebStore.DAL\obj\Debug\netcoreapp2.1\WebStore.DAL.csproj.CopyComplete
+C:\project\WebPattern\WebPattern\WebStore.DAL\obj\Debug\netcoreapp2.1\WebStore.DAL.dll
+C:\project\WebPattern\WebPattern\WebStore.DAL\obj\Debug\netcoreapp2.1\WebStore.DAL.pdb

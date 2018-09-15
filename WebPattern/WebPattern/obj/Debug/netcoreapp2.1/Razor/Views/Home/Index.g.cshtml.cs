@@ -110,7 +110,7 @@ Write(await Component.InvokeAsync("Sections"));
             WriteLiteral("</td>\r\n        <td>");
             EndContext();
             BeginContext(281, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f908d8d69f0f451c8c805865ce0276dc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f2fcb1a17c6f433d94432192f4076765", async() => {
                 BeginContext(329, 6, true);
                 WriteLiteral("Detail");
                 EndContext();
@@ -145,7 +145,7 @@ Write(await Component.InvokeAsync("Sections"));
             WriteLiteral("</td>\r\n        <td>");
             EndContext();
             BeginContext(358, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44ed053ce1a242fa9c7303a1bbed3987", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "239702bb849c420e99e6776a1258ca69", async() => {
                 BeginContext(403, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -180,7 +180,7 @@ Write(await Component.InvokeAsync("Sections"));
             WriteLiteral("</td>\r\n        <td>");
             EndContext();
             BeginContext(430, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a66624963574b53acdc1d89aab09792", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5444d2fe74641eaad38e9196c256872", async() => {
                 BeginContext(477, 6, true);
                 WriteLiteral("Delete");
                 EndContext();
@@ -223,7 +223,7 @@ Write(await Component.InvokeAsync("Sections"));
             WriteLiteral("</table>\r\n<hr />\r\n");
             EndContext();
             BeginContext(530, 52, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cdf11534c00f4bebb3d08cb5db9043f5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e0852bf9c58944b1ada2dc103e97b751", async() => {
                 BeginContext(575, 3, true);
                 WriteLiteral("Add");
                 EndContext();

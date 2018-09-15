@@ -26,30 +26,30 @@
 23 silly mapToRegistry uri https://registry.npmjs.org/jqeury
 24 verbose request uri https://registry.npmjs.org/jqeury
 25 verbose request no auth needed
-26 info attempt registry request try #1 at 23:37:26
-27 verbose request id dcd865f393c6d3c6
+26 info attempt registry request try #1 at 22:19:01
+27 verbose request id a6c7ff63c23047fe
 28 verbose etag W/"5158d4bda137ba0d09721c92db39bcf8"
 29 verbose lastModified Mon, 13 Aug 2018 12:58:29 GMT
 30 http request GET https://registry.npmjs.org/jqeury
 31 http 304 https://registry.npmjs.org/jqeury
-32 verbose headers { date: 'Thu, 06 Sep 2018 20:37:30 GMT',
+32 verbose headers { date: 'Sat, 15 Sep 2018 19:19:03 GMT',
 32 verbose headers   connection: 'keep-alive',
-32 verbose headers   'set-cookie': [ '__cfduid=d03211bba7ab67243d7bc990772ec79d91536266249; expires=Fri, 06-Sep-19 20:37:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-32 verbose headers   'cf-cache-status': 'REVALIDATED',
+32 verbose headers   'set-cookie': [ '__cfduid=d198ddaa51c10335e1d7cf51446f396851537039142; expires=Sun, 15-Sep-19 19:19:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+32 verbose headers   'cf-cache-status': 'MISS',
 32 verbose headers   'cache-control': 'max-age=300',
-32 verbose headers   'cf-ray': '4563bbdc5daf86c7-ARN',
+32 verbose headers   'cf-ray': '45ad71521e49765a-ARN',
 32 verbose headers   etag: '"5158d4bda137ba0d09721c92db39bcf8"',
 32 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 32 verbose headers   'last-modified': 'Mon, 13 Aug 2018 12:58:29 GMT',
 32 verbose headers   vary: 'accept-encoding, accept',
 32 verbose headers   server: 'cloudflare' }
 33 silly get cb [ 304,
-33 silly get   { date: 'Thu, 06 Sep 2018 20:37:30 GMT',
+33 silly get   { date: 'Sat, 15 Sep 2018 19:19:03 GMT',
 33 silly get     connection: 'keep-alive',
-33 silly get     'set-cookie': [ '__cfduid=d03211bba7ab67243d7bc990772ec79d91536266249; expires=Fri, 06-Sep-19 20:37:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
-33 silly get     'cf-cache-status': 'REVALIDATED',
+33 silly get     'set-cookie': [ '__cfduid=d198ddaa51c10335e1d7cf51446f396851537039142; expires=Sun, 15-Sep-19 19:19:02 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 silly get     'cf-cache-status': 'MISS',
 33 silly get     'cache-control': 'max-age=300',
-33 silly get     'cf-ray': '4563bbdc5daf86c7-ARN',
+33 silly get     'cf-ray': '45ad71521e49765a-ARN',
 33 silly get     etag: '"5158d4bda137ba0d09721c92db39bcf8"',
 33 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 33 silly get     'last-modified': 'Mon, 13 Aug 2018 12:58:29 GMT',
@@ -66,7 +66,7 @@
 36 verbose stack     at C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Web\External\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
 36 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
 37 verbose cwd C:\project\WebPattern\WebPattern\WebPattern
-38 error Windows_NT 10.0.16299
+38 error Windows_NT 10.0.17134
 39 error argv "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\Node.exe" "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Web\\External\\node_modules\\npm\\bin\\npm-cli.js" "install"
 40 error node v5.4.1
 41 error npm  v3.3.4

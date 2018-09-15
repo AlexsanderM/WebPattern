@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WebPattern.Infrastructure;
 using WebPattern.Infrastructure.Implementation;
+using WebPattern.Infrastructure.Implementation.Sql;
 using WebStore.DAL.Context;
 
 namespace WebPattern
@@ -30,7 +31,7 @@ namespace WebPattern
 
             //add permit relation
             services.AddSingleton<IEmployeesData, InMemoryEmployeesData>();
-            services.AddSingleton<IProductData, InMemoryProductData>();
+            services.AddScoped<IProductData, SqlProductData>();
 
             services.AddDbContext<WebStoreContext>(options =>
             options.UseSqlServer(
